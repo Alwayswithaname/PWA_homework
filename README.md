@@ -2,9 +2,9 @@
     
     ## Description
     
-    - In this project I built a progressive web application (pwa) text editore. 
-    - Whit featers  such as  running on localhost:3000, text can be stored in the texteditore, the app is installable in browser and will download a useable icon to the desktok. 
-    - This app is deployed on Heroku. 
+     In this project I built a progressive web application (pwa) text editore. 
+     Whit featers  such as  running on localhost:3000, text can be stored in the texteditore, the app is installable in browser and will download a useable icon to the desktok. 
+     This app is deployed on Heroku. 
     
 
     ## Project Links
@@ -16,8 +16,8 @@
 
     ## Instalation 
 
-    - npm run install
+     npm run install
 
-    - npm run build
+     npm run build
 
-    - npm run start
+     npm run start
