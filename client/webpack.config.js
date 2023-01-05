@@ -33,7 +33,7 @@ module.exports = () => {
         inject: true,
         name: 'header',
         short_name: 'header info',
-        description: 'infor for your database',
+        description: 'Infor for your database',
         background_color: 'blue',
         theme_color: 'yellow',
         start_url: './',
@@ -51,13 +51,20 @@ module.exports = () => {
     module: {
       rules: [
         {
+          test: /\.css$/i,
+          use: ['style-loader', 'css-loader'],
+        },
+        {
           test: /\.m?js$/,
           exclude: /node_modules/,
+          use: {
+            loader: 'babel-loader',
           options: {
             presets: ['@babel/preset-env'],
             plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime'],
           },
-        },    
+        },
+      }    
       ],
     },
   };
